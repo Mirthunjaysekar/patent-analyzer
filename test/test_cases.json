@@ -1,0 +1,26 @@
+[
+  {
+    "test_id": "TC001",
+    "description": "Smart helmet with drowsiness detection",
+    "input": "A smart helmet that detects drowsiness using EEG sensors and alerts the driver",
+    "expected_patents_count": 5,
+    "expected_novelty_min": 60,
+    "expected_fields": ["summary", "patents", "delta_analysis", "novelty_score"]
+  },
+  {
+    "test_id": "TC002",
+    "description": "Solar water purification with AI",
+    "input": "Solar powered water purification using AI monitoring and IoT sensors",
+    "expected_patents_count": 5,
+    "expected_novelty_min": 55,
+    "expected_fields": ["summary", "patents", "delta_analysis", "novelty_score"]
+  },
+  {
+    "test_id": "TC003",
+    "description": "AI crop disease detection",
+    "input": "Mobile app that detects crop diseases using AI image recognition",
+    "expected_patents_count": 5,
+    "expected_novelty_min": 50,
+    "expected_fields": ["summary", "patents", "delta_analysis", "novelty_score"]
+  }
+]

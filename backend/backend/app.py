@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+# Feature: Novelty Score - Calculates patentability percentagefrom dotenv import load_dotenv
 import os, json, urllib.parse
 from flask import Flask, request, jsonify
 from serpapi import GoogleSearch
