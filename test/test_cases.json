@@ -2,7 +2,7 @@
   {
     "test_id": "TC001",
     "description": "Smart helmet with drowsiness detection",
-    "input": "A smart helmet that detects drowsiness using EEG sensors and alerts the driver",
+    "input": "A smart helmet that detects drowsiness using EEG sensors",
     "expected_patents_count": 5,
     "expected_novelty_min": 60,
     "expected_fields": ["summary", "patents", "delta_analysis", "novelty_score"]

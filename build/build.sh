@@ -15,4 +15,4 @@ echo "[3/3] Building React app..."
 npm run build
 cd ..
 
-echo "Build complete! Run python backend/backend/app.py to start."
+echo "Build complete!"
