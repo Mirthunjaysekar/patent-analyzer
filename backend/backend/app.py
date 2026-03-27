@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+# Feature: Delta Analysis - Compares user idea with each patentfrom dotenv import load_dotenv
 import os, json, urllib.parse
 from flask import Flask, request, jsonify
 from serpapi import GoogleSearch
