@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Patent Analyzer with Delta Logic</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1 class="title">🔎 Patent Analyzer with Delta Logic</h1>
+
+    <div class="input-area">
+      <textarea id="ideaInput" placeholder="Type your invention idea or paste full description..."></textarea>
+      <div class="controls">
+        <button id="analyzeBtn" class="btn">Analyze Idea</button>
+        <div id="status" class="status"></div>
+      </div>
+    </div>
+
+    <section class="card">
+      <h2>AI Summary</h2>
+      <div id="summary" class="summary">Enter an idea and press Analyze.</div>
+    </section>
+
+    <section class="card">
+      <h2>Related Patents</h2>
+      <ul id="patentsList" class="patents-list">
+        <li class="muted">No related patents yet.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Delta Logic Analysis</h2>
+      <div class="novelty">
+        <div id="noveltyBadge">Novelty: —</div>
+        <div id="noveltyDetails" class="novelty-details"></div>
+      </div>
+
+      <!-- This is where the delta table will be displayed -->
+      <div id="deltaTableContainer" class="delta-table-container">
+        <p class="muted">Delta logic analysis will appear here after analysis.</p>
+      </div>
+
+      <!-- Novel Features Section -->
+      <div id="novelFeatures" class="novel-features" style="display: none;">
+        <h3>🎯 Novel Features</h3>
+        <ul id="novelFeaturesList"></ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>Tip: Give a clear idea (2–6 short sentences) for better results.</small>
+    </footer>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

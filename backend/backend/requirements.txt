@@ -1,0 +1,8 @@
+flask
+flask_cors
+google-search-results
+scikit-learn
+python-dotenv
+spacy   # optional but recommended
+# If you plan to use Gemini SDK:
+google-generativeai
