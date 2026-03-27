@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+# Feature: Google Patents Search - Fetches 5 closely related patentsfrom dotenv import load_dotenv
 import os, json, urllib.parse
 from flask import Flask, request, jsonify
 from serpapi import GoogleSearch
