@@ -1,4 +1,4 @@
-from dotenv import load_dotenv
+# Feature: Gemini AI Integration - Generates AI summary for user patent ideafrom dotenv import load_dotenv
 import os, json, urllib.parse
 from flask import Flask, request, jsonify
 from serpapi import GoogleSearch
