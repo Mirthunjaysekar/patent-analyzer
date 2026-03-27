@@ -1,5 +1,4 @@
-# Feature: Gemini AI Integration - Generates AI summary
-# Feature: Delta Analysis - Compares user idea with each patent
+# Patent Analyzer - Main Flask Application
 import os, json, urllib.parse
 from flask import Flask, request, jsonify
 from serpapi import GoogleSearch
